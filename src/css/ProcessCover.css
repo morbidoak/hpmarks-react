@@ -1,0 +1,31 @@
+div.process-cover {
+    position: fixed;
+    width: 50vw;
+    height: 20vh;
+    padding: 65vh 25vw 15vh 25vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 10vw;
+  }
+  
+  div.process-cover.none {
+    display: none;
+  }
+  
+  div.process-cover.progress {
+    display: block;
+    background-image: url(../images/owl.gif);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  
+  div.process-cover.success, div.process-cover.fail {
+    display: block;
+    background-image: url(../images/owl2.png);
+  }

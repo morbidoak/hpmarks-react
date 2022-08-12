@@ -1,0 +1,49 @@
+@font-face { 
+  font-family: 'Beer'; 
+  src: url('../fonts/Beer.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+input, textarea, select, div {
+  font-family: 'Beer';
+}
+
+#root {
+  width: 100vw;
+  min-height: 120vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widefield {
+  width: 98vw;
+  height: 10vw;
+  border-width: 0 0 1px 0;
+  border-color: darkgrey;
+  font-size: 7vw;
+  margin: 4vw 0 0 0;
+  padding: 1vw;
+}
+
+input[name=send] {
+  display: block;
+  width: 80vw;
+  height: 13vw;
+  margin: 0vw 0 5vw 0;
+  padding: 0;
+  font-size: 9vw;
+  line-height: 9vw;
+  border: none;
+  background: transparent;
+}
+
+hr {
+  display:block;
+  width:100%;
+  height:1px;
+  color: rgb(173, 171, 171);
+}
+
+
