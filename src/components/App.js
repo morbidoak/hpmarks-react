@@ -7,7 +7,7 @@ import History from './History.js';
 import ProcessCover from './ProcessCover.js';
 import uploadData from '../functions/uploadData.js';
 import { dropAllData, getLocalStoredState, setLocalStoredState } from '../functions/storage.js';
-import { DROP_DATA_KEYWORD, FACULTIES, POSITIONS } from '../parseConfig.js';
+import { DROP_DATA_KEYWORD, FACULTIES, POSITIONS } from '../config.js';
 
 const INITIAL_PREVIOUS_UPDATE = "еще не обнулялось";
 

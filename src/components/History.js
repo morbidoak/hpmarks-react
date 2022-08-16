@@ -1,6 +1,6 @@
 import '../css/History.css';
 import formatDateTime from "../functions/formatDateTime.js";
-import { FACULTIES } from '../parseConfig.js';
+import { FACULTIES } from '../config.js';
 
 const History = ({title, data}) => (
   <table className="log">

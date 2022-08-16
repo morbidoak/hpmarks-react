@@ -1,4 +1,4 @@
-import { UPLOAD_URL } from '../parseConfig.js';
+import { UPLOAD_URL } from '../config.js';
 import prepareSheet from './prepareSheet.js';
 
 export default function uploadData(uName, position, previousUpdate, firstStart, actualScore, totalScore, data, onSuccess, onFail) {

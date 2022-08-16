@@ -1,5 +1,4 @@
-{
-"FACULTIES": [
+export const FACULTIES = [
   {
     "id": "grif",
     "title": "Гриффиндор",
@@ -23,9 +22,9 @@
     "title": "Рейвенкло",
     "sheetDataColumn": 13
   }
-],
+];
 
-"POSITIONS": [
+export const POSITIONS = [
   {
     "id": "director",
     "title": "Директор",
@@ -88,9 +87,7 @@
     "maxAddScore": 6,
     "maxSubScore": 6
   }
-],
+];
 
-"UPLOAD_URL": "https://script.google.com/macros/s/AKfycbzeryJ5_UW-bG2IpFCmpfyrBSmPHmuQzkXcolk06ApMk-drrlGu/exec", 
-"DROP_DATA_KEYWORD": "avadakedavra"
-}
-
+export const DROP_DATA_KEYWORD = "avadakedavra";
+export const UPLOAD_URL = "https://script.google.com/macros/s/AKfycbzeryJ5_UW-bG2IpFCmpfyrBSmPHmuQzkXcolk06ApMk-drrlGu/exec";

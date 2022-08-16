@@ -1,6 +1,6 @@
 import '../css/ScoreForm.css';
 import React, { useEffect, useState } from 'react';
-import { FACULTIES } from '../parseConfig.js';
+import { FACULTIES } from '../config.js';
 
 export default function ScoreForm({maxAddScore, maxSubScore, scoreFormHandler}) {
 	const [faculty, setFaculty] = useState(FACULTIES[0].id);

@@ -1,4 +1,4 @@
-import { POSITIONS } from '../parseConfig.js';
+import { POSITIONS } from '../config.js';
 
 const PositionInput = ({position, positionChangeHandler}) => (
   <select name="position" className="widefield" value={position} onChange={positionChangeHandler}>

@@ -1,6 +1,6 @@
 import Sheet from "./sheet.js";
 import formatDateTime from "./formatDateTime.js"
-import { FACULTIES } from '../parseConfig.js';
+import { FACULTIES } from '../config.js';
 
 export default function prepareSheet(uName, position, previousUpdate, firstStart, actualScore, totalScore, data) {
 	let currentRows = {};
